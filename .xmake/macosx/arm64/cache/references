@@ -1,0 +1,17 @@
+{
+    packages = {
+        "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f",
+        "/Users/zhangzhining/.xmake/packages/c/ca-certificates/20230306/0c621068e26542e3a2e1b1626badcac7",
+        "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6",
+        "/Users/zhangzhining/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5",
+        "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206",
+        "/Users/zhangzhining/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4",
+        "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587",
+        "/Users/zhangzhining/.xmake/packages/s/spdlog/v1.12.0/aff2e750b67c48ea81bcd2ed3b6915ac",
+        "/Users/zhangzhining/.xmake/packages/s/stb/2023.01.30/baa2aa3b50fd4294ba547a6c032c19ef",
+        "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d",
+        "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a",
+        "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6",
+        "/Users/zhangzhining/.xmake/packages/e/eigen/3.4.0/eeabab5028dd4442ac4ebc3d7095c1cf"
+    }
+}

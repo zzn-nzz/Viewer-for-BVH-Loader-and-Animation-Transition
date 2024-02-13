@@ -1,0 +1,242 @@
+{
+    glm = {
+        installdir = "/Users/zhangzhining/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4/lib"
+            }
+        },
+        __requirestr = "glm",
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/g/glm/0.9.9+8/0043e30ac3974dd2bced1344ae65efc4/include",
+        version = "0.9.9+8",
+        __enabled = true
+    },
+    imgui = {
+        libfiles = "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/lib/libimgui.a",
+        static = true,
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/lib"
+            }
+        },
+        sysincludedirs = {
+            "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/include",
+            "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/include/imgui",
+            "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/include/backends",
+            "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/include/misc/cpp"
+        },
+        version = "v1.89.9",
+        linkdirs = "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587/lib",
+        license = "MIT",
+        __requirestr = "imgui",
+        links = "imgui",
+        installdir = "/Users/zhangzhining/.xmake/packages/i/imgui/v1.89.9/6788dc20d85a45e086309e3b3e371587",
+        __enabled = true
+    },
+    ["yaml-cpp"] = {
+        libfiles = "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6/lib/libyaml-cpp.a",
+        static = true,
+        envs = {
+            PATH = {
+                "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6/bin",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/bin"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib"
+            }
+        },
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6/include",
+        version = "0.8.0",
+        linkdirs = "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6/lib",
+        license = "MIT",
+        __requirestr = "yaml-cpp",
+        links = "yaml-cpp",
+        installdir = "/Users/zhangzhining/.xmake/packages/y/yaml-cpp/0.8.0/de7dde269b31490e9eca3951fc369bf6",
+        __enabled = true
+    },
+    spdlog = {
+        installdir = "/Users/zhangzhining/.xmake/packages/s/spdlog/v1.12.0/aff2e750b67c48ea81bcd2ed3b6915ac",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/s/spdlog/v1.12.0/aff2e750b67c48ea81bcd2ed3b6915ac/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/s/spdlog/v1.12.0/aff2e750b67c48ea81bcd2ed3b6915ac/lib"
+            }
+        },
+        __requirestr = "spdlog",
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/s/spdlog/v1.12.0/aff2e750b67c48ea81bcd2ed3b6915ac/include",
+        version = "v1.12.0",
+        __enabled = true
+    },
+    tinyobjloader = {
+        libfiles = "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a/lib/libtinyobjloader.a",
+        static = true,
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a/lib"
+            }
+        },
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a/include",
+        version = "v2.0.0rc10",
+        linkdirs = "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a/lib",
+        license = "MIT",
+        __requirestr = "tinyobjloader",
+        links = "tinyobjloader",
+        installdir = "/Users/zhangzhining/.xmake/packages/t/tinyobjloader/v2.0.0rc10/284b25657df54a89ab4b4de81499aa5a",
+        __enabled = true
+    },
+    stb = {
+        installdir = "/Users/zhangzhining/.xmake/packages/s/stb/2023.01.30/baa2aa3b50fd4294ba547a6c032c19ef",
+        envs = {
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/s/stb/2023.01.30/baa2aa3b50fd4294ba547a6c032c19ef/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/s/stb/2023.01.30/baa2aa3b50fd4294ba547a6c032c19ef/lib"
+            }
+        },
+        __requirestr = "stb",
+        sysincludedirs = {
+            "/Users/zhangzhining/.xmake/packages/s/stb/2023.01.30/baa2aa3b50fd4294ba547a6c032c19ef/include",
+            "/Users/zhangzhining/.xmake/packages/s/stb/2023.01.30/baa2aa3b50fd4294ba547a6c032c19ef/include/stb"
+        },
+        version = "2023.01.30",
+        __enabled = true
+    },
+    glfw = {
+        defines = {
+            "GLFW_INCLUDE_NONE",
+            "GL_SILENCE_DEPRECATION"
+        },
+        libfiles = "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206/lib/libglfw3.a",
+        static = true,
+        installdir = "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206",
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206/include",
+        envs = {
+            PATH = {
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/bin"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib",
+                "/Users/zhangzhining/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5/lib"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib",
+                "/Users/zhangzhining/.xmake/packages/o/opengl/latest/a5b4e345986a4740863d88955955c4b5/lib"
+            }
+        },
+        version = "3.3.8",
+        linkdirs = "/Users/zhangzhining/.xmake/packages/g/glfw/3.3.8/666df0876e7e4b37acfe633aeea20206/lib",
+        license = "zlib",
+        __requirestr = "glfw",
+        links = "glfw3",
+        frameworks = {
+            "Cocoa",
+            "IOKit",
+            "OpenGL"
+        },
+        __enabled = true
+    },
+    fmt = {
+        libfiles = "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d/lib/libfmt.a",
+        static = true,
+        linkdirs = "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d/lib",
+        installdir = "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d",
+        envs = {
+            PATH = {
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/bin"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib"
+            }
+        },
+        version = "10.1.1",
+        __requirestr = "fmt",
+        links = "fmt",
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/f/fmt/10.1.1/5023714ee31c498784e8f31e5250733d/include",
+        __enabled = true
+    },
+    eigen = {
+        installdir = "/Users/zhangzhining/.xmake/packages/e/eigen/3.4.0/eeabab5028dd4442ac4ebc3d7095c1cf",
+        envs = {
+            PATH = {
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/bin"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/e/eigen/3.4.0/eeabab5028dd4442ac4ebc3d7095c1cf/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/e/eigen/3.4.0/eeabab5028dd4442ac4ebc3d7095c1cf/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib"
+            }
+        },
+        license = "MPL-2.0",
+        __requirestr = "eigen",
+        sysincludedirs = {
+            "/Users/zhangzhining/.xmake/packages/e/eigen/3.4.0/eeabab5028dd4442ac4ebc3d7095c1cf/include",
+            "/Users/zhangzhining/.xmake/packages/e/eigen/3.4.0/eeabab5028dd4442ac4ebc3d7095c1cf/include/eigen3"
+        },
+        version = "3.4.0",
+        __enabled = true
+    },
+    glad = {
+        libfiles = "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib/libglad.a",
+        static = true,
+        envs = {
+            PATH = {
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/bin",
+                "/Users/zhangzhining/.xmake/packages/p/python/3.11.3/8f6c7fe379604fc6aba6fdc70c4af95b/bin",
+                "/Users/zhangzhining/.xmake/packages/p/python/3.11.3/8f6c7fe379604fc6aba6fdc70c4af95b/bin",
+                "/Users/zhangzhining/.xmake/packages/p/python/3.11.3/8f6c7fe379604fc6aba6fdc70c4af95b/Scripts"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib",
+                "/Users/zhangzhining/.xmake/packages/o/openssl/1.1.1-t/fbe24226d2e24b2dbf63fc70ade72c63/lib",
+                "/Users/zhangzhining/.xmake/packages/c/ca-certificates/20230306/0c621068e26542e3a2e1b1626badcac7/lib",
+                "/Users/zhangzhining/.xmake/packages/p/python/3.11.3/8f6c7fe379604fc6aba6fdc70c4af95b/lib"
+            },
+            PYTHONPATH = {
+                "/Users/zhangzhining/.xmake/packages/p/python/3.11.3/8f6c7fe379604fc6aba6fdc70c4af95b/lib/python3.11/site-packages"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib",
+                "/Users/zhangzhining/.xmake/packages/c/cmake/3.26.4/dfa14878089746a482b5bba1f685022f/lib",
+                "/Users/zhangzhining/.xmake/packages/o/openssl/1.1.1-t/fbe24226d2e24b2dbf63fc70ade72c63/lib",
+                "/Users/zhangzhining/.xmake/packages/c/ca-certificates/20230306/0c621068e26542e3a2e1b1626badcac7/lib",
+                "/Users/zhangzhining/.xmake/packages/p/python/3.11.3/8f6c7fe379604fc6aba6fdc70c4af95b/lib"
+            }
+        },
+        sysincludedirs = "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/include",
+        version = "v0.1.36",
+        linkdirs = "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6/lib",
+        license = "MIT",
+        __requirestr = "glad",
+        links = "glad",
+        installdir = "/Users/zhangzhining/.xmake/packages/g/glad/v0.1.36/4d2387580a614269b51355b85b7369c6",
+        __enabled = true
+    }
+}

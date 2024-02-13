@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/zhangzhining/Desktop/学习/0可视计算与交互盖伦/2200012810/Final_Project_2200012810/src/VCX/Labs/Final_Project",
+      "program": "/Users/zhangzhining/Desktop/学习/0可视计算与交互盖伦/2200012810/Final_Project_2200012810/src/VCX/Labs/Final_Project/build/Debug/outDebug"
+    }
+  ]
+}

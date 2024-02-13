@@ -1,0 +1,72 @@
+{
+    tool_target_engine_macosx_arm64_ar = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar",
+        toolname = "ar",
+        toolchain_info = {
+            arch = "arm64",
+            plat = "macosx",
+            name = "xcode",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    },
+    ["tool_target_lab-common_macosx_arm64_cxx"] = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+        toolname = "clang",
+        toolchain_info = {
+            arch = "arm64",
+            plat = "macosx",
+            name = "xcode",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    },
+    xcode_arch_arm64_plat_macosx = {
+        __global = true,
+        arch = "arm64",
+        target_minver = "12.5",
+        xcode = "/Applications/Xcode.app",
+        bindir = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        plat = "macosx",
+        xcode_sysroot = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk",
+        xcode_sdkver = "13.0"
+    },
+    tool_target_Final_Project_macosx_arm64_cxx = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+        toolname = "clang",
+        toolchain_info = {
+            arch = "arm64",
+            plat = "macosx",
+            name = "xcode",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    },
+    tool_target_Final_Project_macosx_arm64_ld = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+        toolname = "clangxx",
+        toolchain_info = {
+            arch = "arm64",
+            plat = "macosx",
+            name = "xcode",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    },
+    ["tool_target_lab-common_macosx_arm64_ar"] = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar",
+        toolname = "ar",
+        toolchain_info = {
+            arch = "arm64",
+            plat = "macosx",
+            name = "xcode",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    },
+    tool_target_engine_macosx_arm64_cxx = {
+        program = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang",
+        toolname = "clang",
+        toolchain_info = {
+            arch = "arm64",
+            plat = "macosx",
+            name = "xcode",
+            cachekey = "xcode_arch_arm64_plat_macosx"
+        }
+    }
+}
